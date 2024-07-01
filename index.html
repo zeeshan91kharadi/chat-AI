@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two-Person Chat Application</title>
+    <link rel="stylesheet" href="chat.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div id="chat-box" class="chat-box"></div>
+        <div class="input-container">
+            <input type="text" id="user1-input" placeholder="User 1: Type your message here..." />
+            <button onclick="sendMessage('user1')">Send as User 1</button>
+        </div>
+        <div class="input-container">
+            <input type="text" id="user2-input" placeholder="User 2: Type your message here..." />
+            <button onclick="sendMessage('user2')">Send as User 2</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
